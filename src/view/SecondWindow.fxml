@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="34.0" layoutY="14.0" text="City name" />
+      <TextField layoutX="173.0" layoutY="9.0" />
+      <Label layoutX="34.0" layoutY="51.0" text="Chosen date" />
+      <DatePicker layoutX="173.0" layoutY="46.0" prefHeight="27.0" prefWidth="150.0" />
+      <DatePicker layoutX="360.0" layoutY="46.0" prefHeight="27.0" prefWidth="150.0" />
+      <Label layoutX="137.0" layoutY="51.0" text="from" />
+      <Label layoutX="340.0" layoutY="51.0" text="to" />
+      <TableView layoutX="34.0" layoutY="84.0" prefHeight="270.0" prefWidth="549.0">
+        <columns>
+          <TableColumn prefWidth="187.0" text="Car name" />
+          <TableColumn minWidth="5.0" prefWidth="149.0" text="Price" />
+            <TableColumn prefWidth="211.0" text="Column X" />
+        </columns>
+      </TableView>
+      <Button layoutX="495.0" layoutY="359.0" mnemonicParsing="false" text="Make order" />
+   </children>
+</Pane>

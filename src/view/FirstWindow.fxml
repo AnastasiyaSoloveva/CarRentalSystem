@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.FirstWindow_Controller">
+   <children>
+      <Label layoutX="43.0" layoutY="63.0" prefHeight="33.0" prefWidth="85.0" text="City name" />
+      <TextField fx:id="city_name" layoutX="43.0" layoutY="105.0" prefHeight="48.0" prefWidth="247.0" />
+      <Label layoutX="43.0" layoutY="192.0" text="From" />
+      <Label layoutX="282.0" layoutY="192.0" text="To" />
+      <DatePicker fx:id="from" layoutX="43.0" layoutY="218.0" />
+      <DatePicker fx:id="to" layoutX="282.0" layoutY="218.0" />
+      <Button layoutX="465.0" layoutY="339.0" mnemonicParsing="false" onAction="#setSearch" text="Search" />
+   </children>
+</Pane>
